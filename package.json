@@ -1,12 +1,32 @@
 {
   "name": "solo-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.18",
+    "chromedriver": "^99.0.0",
+    "geckodriver": "^3.0.1",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NateNet59/solocapstone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NateNet59/solocapstone/issues"
+  },
+  "homepage": "https://github.com/NateNet59/solocapstone#readme",
+  "description": ""
 }
